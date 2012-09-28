@@ -6,7 +6,9 @@
 /dist
 .DS_Store
 /tags
-.idea
+/Plugin
+/Vendor
 
+.idea
 lib
 
