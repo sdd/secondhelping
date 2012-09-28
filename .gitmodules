@@ -1,0 +1,3 @@
+[submodule "Plugin/BakingPlate"]
+	path = Plugin/BakingPlate
+	url = git://github.com/ProLoser/BakingPlate.git
