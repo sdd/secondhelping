@@ -1,3 +1,66 @@
 [submodule "Plugin/BakingPlate"]
 	path = Plugin/BakingPlate
-	url = git://github.com/ProLoser/BakingPlate.git
+	url = git://github.com/ProLoser/BakingPlate.git	
+[submodule "Plugin/Plugin"]
+	path = Plugin/Plugin
+	url = git://github.com/cakephp/debug_kit.git
+[submodule "Plugin/DebugKit"]
+	path = Plugin/DebugKit
+	url = git://github.com/cakephp/debug_kit.git
+[submodule "Plugin/Linkable"]
+	path = Plugin/Linkable
+	url = git://github.com/ProLoser/linkable.git
+[submodule "Plugin/Batch"]
+	path = Plugin/Batch
+	url = git://github.com/ProLoser/CakePHP-Batch.git
+[submodule "Plugin/Users"]
+	path = Plugin/Users
+	url = git://github.com/CakeDC/users.git
+[submodule "Plugin/Search"]
+	path = Plugin/Search
+	url = git://github.com/CakeDC/search.git
+[submodule "Plugin/AssetCompress"]
+	path = Plugin/AssetCompress
+	url = git://github.com/CakeDC/asset_compress.git
+[submodule "Plugin/Bitly"]
+	path = Plugin/Bitly
+	url = git://github.com/CakeDC/bitly.git
+[submodule "Plugin/Categories"]
+	path = Plugin/Categories
+	url = git://github.com/CakeDC/categories.git
+[submodule "Plugin/Comments"]
+	path = Plugin/Comments
+	url = git://github.com/CakeDC/comments.git
+[submodule "Plugin/Favorites"]
+	path = Plugin/Favorites
+	url = git://github.com/CakeDC/favorites.git
+[submodule "Plugin/I18n"]
+	path = Plugin/I18n
+	url = git://github.com/CakeDC/i18n.git
+[submodule "Plugin/MarkupParsers"]
+	path = Plugin/MarkupParsers
+	url = git://github.com/CakeDC/markup_parsers.git
+[submodule "Plugin/Migrations"]
+	path = Plugin/Migrations
+	url = git://github.com/CakeDC/migrations.git
+[submodule "Plugin/Problems"]
+	path = Plugin/Problems
+	url = git://github.com/CakeDC/problems.git
+[submodule "Plugin/Ratings"]
+	path = Plugin/Ratings
+	url = git://github.com/CakeDC/ratings.git
+[submodule "Plugin/Recaptcha"]
+	path = Plugin/Recaptcha
+	url = git://github.com/CakeDC/recaptcha.git
+[submodule "Plugin/Tags"]
+	path = Plugin/Tags
+	url = git://github.com/CakeDC/tags.git
+[submodule "Plugin/Templates"]
+	path = Plugin/Templates
+	url = git://github.com/CakeDC/templates.git
+[submodule "Plugin/TinyMce"]
+	path = Plugin/TinyMce
+	url = git://github.com/CakeDC/TinyMCE.git
+[submodule "Plugin/Utils"]
+	path = Plugin/Utils
+	url = git://github.com/CakeDC/utils.git

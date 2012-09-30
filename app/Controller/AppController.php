@@ -21,6 +21,8 @@
  */
 
 App::uses('Controller', 'Controller');
+App::uses('Auth', 'Component');
+App::uses('Auth', 'Component');
 
 /**
  * Application Controller
@@ -32,4 +34,15 @@ App::uses('Controller', 'Controller');
  * @link http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+
+	public $components = array('Auth', 'Session');
+
+	public function isAuthorized() {
+		return parent::isAuthorized;
+	}
+
+	public function beforeRender() {
+		$this->set('authuser', $this->Auth->user());
+	}
 }

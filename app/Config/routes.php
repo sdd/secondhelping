@@ -31,14 +31,32 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+
+Router::connect('/users', array('controller' => 'users'));
+Router::connect('/users/index/*', array('controller' => 'users'));
+Router::connect('/users/:action', array('controller' => 'users'));
+Router::connect('/users/:action/*', array('controller' => 'users'));
+Router::connect('/users/users/:action/*', array('plugin' => null, 'controller' => 'users'));
+Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
+Router::connect('/register', array('controller' => 'users', 'action' => 'add'));
+
+Router::connect('/collection_requests', array('controller' => 'collection_requests'));
+Router::connect('/collection_requests/:action', array('controller' => 'collection_requests'));
+Router::connect('/collection_requests/:action/*', array('controller' => 'collection_requests'));
+
 /**
- * Load all plugin routes.  See the CakePlugin documentation on 
+ * Load all plugin routes.  See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
  */
-	CakePlugin::routes();
+	//CakePlugin::routes();
 
 /**
  * Load the CakePHP default routes. Remove this if you do not want to use
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
+
+
+
+//CakePlugin::load('Users', array('routes' => true));

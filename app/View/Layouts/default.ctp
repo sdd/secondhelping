@@ -39,7 +39,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1 style="display: inline-block; width:40%"><?php echo $this->Html->link('Second Helping', '/'); ?></h1>
+			<?php if ($authuser): ?>
+				<div style="display:inline-block;width:25%" class="account">Hello, <?php echo $authuser['username']; ?> <a href="/logout" style="color:white">Log Out</a></div>
+			<?php else: ?>
+				<a href="/login">Log In</a>
+			<?php endif; ?>
 		</div>
 		<div id="content">
 
